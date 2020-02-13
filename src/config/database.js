@@ -1,7 +1,7 @@
 module.exports = {
     dialect: 'postgres',
     host: 'localhost',
-    username: 'sql_node',
+    username: 'nodesql',
     password: 'docker',
     database: {
         timestamps: true,
