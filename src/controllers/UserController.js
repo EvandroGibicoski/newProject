@@ -1,6 +1,12 @@
 const User = require('../model/User');
 
 module.exports = {
+    async indexedDB(req, res) {
+        const users = await User.findAll();
+
+        return res.json(users);
+    },
+
     async store(req, res) {
         const { name, email } = req.body;
 
