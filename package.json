@@ -1,8 +1,8 @@
 {
-  "name": "SQL-NODE-SEQUELIZE",
+  "name": "my_project",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/EvandroGibicoski/newProject.git",
+  "repository": "https://github.com/EvandroGibicoski/SQL-NODE-SEQUELIZE.git",
   "author": "Evandro Gibicoski <evandrogibicoski@outlook.com>",
   "license": "MIT",
   "scripts": {
