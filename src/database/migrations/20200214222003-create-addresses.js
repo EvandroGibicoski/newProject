@@ -18,6 +18,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNulll: false,
       },
+      street: {
+        type: Sequelize.INTEGER,
+        allowNulll: false,
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNulll: false,
